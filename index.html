@@ -1,9 +1,11 @@
 <html>
 
-<title class="titles" id="titles">small web site :D</title>
+<title class="titles" id="titles">IOS 6 Tools</title>
 <body>
   <center>
-  <p class="text"><H1>Test website</H1></p>
+  <p class="text"><H1>Ios 6 tools</H1></p>
+  <p class="hide" id="hide" >Please use your ios 6 device</p>
+
   <a href="https://github.com/marhau-dev/python-2.5-modules/releases/download/V1/requests-0.8.8.tar.zip"><p class="button" id="button" >REQUESTS</p></a>
   <p class="button" id="button"><a  href="https://files.pythonhosted.org/packages/ba/c3/4e1f892f41aaa217fe0d1f827fa05928783349c69f3cc06fdd68e112678a/pip-1.2.tar.gz" >pip</a></p>
   <p class="button" id="button"><a  href="https://github.com/marhau-dev/python-2.5-modules/releases/download/V1/com.spotify.client-iOS6.0-.Clutch-2.0.4.ipa">ios</a></p>
@@ -75,7 +77,17 @@
 
 
   
-    
+    .hide{
+      font-weight: 700;
+      color: darkred;
+      text-shadow: darkgrey;
+      background:linear-gradient(lightblue,darkgray);
+      width: 100px;
+      height: auto;
+      border-radius: 5px;
+      
+
+    }
     
 
 
@@ -111,7 +123,10 @@
               height: 480px;
               align-self: center;
             }
-    
+            .hide{
+              display: none;
+              
+            }
 
 
     .image1:hover{
