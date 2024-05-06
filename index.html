@@ -6,7 +6,7 @@
   <p class="text"><H1>IOS 6 Tools</H1></p>
   <p class="hide" id="hide" >Please use your ios 6 device</p>
 
-
+  <p class="rotates"  id="rotates">rotate 360 fun</p>
   <a href="https://cydia.invoxiplaygames.uk/certificates/ISRG2.pem";><p class="button" id="button" >IOS 6 certificate</p></a>
   </center>
 
@@ -14,13 +14,35 @@
  
  <style>
 
+
+    .rotates{
+      color:aqua;
+      animation: rot 5 infinite;
+
+    }
+
+    @keyframes rot{
+      10% {color: yellow; transform: rotate(36);}
+      20% {color: yellow; transform: rotate(72);}
+      30% {color: yellow; transform: rotate(108);}
+      40% {color: yellow; transform: rotate(144);}
+      50% {color: yellow; transform: rotate(144);}
+      60% {color: yellow; transform: rotate(180);}
+      70% {color: yellow; transform: rotate(216);}
+      80% {color: yellow; transform: rotate(252);}
+      90% {color: yellow; transform: rotate(288);}
+      100% {color: yellow; transform: rotate(324);}
+    }
+
+
+
     body.pinstripe {
     background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=');
 }
     
 
     @keyframes wrong {
-      10% {width: 130px ; font-weight: 700; }
+      10% {width: 132px ; font-weight: 700; }
       20% {width: 140px ; font-weight: 900;}
       30% {width: 130px ; font-weight: 700;}
       40% {width: 140px ; font-weight: 900;}
